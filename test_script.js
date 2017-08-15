@@ -18,9 +18,10 @@ client.connect((err) => {
     if (err) {
       return console.error("error running query", err);
     }
+    console.log("Searching ...")
     for (i in result.rows){
       var A = result.rows[i];
-    console.log(`-${A.id}: ${A.first_name} ${A.last_name}, born ${A.birthdate}`)}; //output: 1
+    console.log(`Found ${result.rows.length} person(s) by the name-${A.id}: ${A.first_name} ${A.last_name}, born ${A.birthdate}`)}; //output: 1
     client.end();
   });
 });

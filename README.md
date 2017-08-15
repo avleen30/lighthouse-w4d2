@@ -1,0 +1,1 @@
+activity for learning how to connect to a PostgreSQL database from JavaScript directly using the native pg driver.
