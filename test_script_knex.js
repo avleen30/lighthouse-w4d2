@@ -20,11 +20,11 @@ knex('famous_people')
   for (i in rows){
   let A = rows[i];
   console.log(`Found ${rows.length} person(s) by the name ${A.first_name}:
---${A.id}: ${A.first_name} ${A.last_name}, born ${A.birthdate}`)
+  --${A.id}: ${A.first_name} ${A.last_name}, born ${A.birthdate}`)
  }
 })
   .catch(function(error){
-console.log(error);
+    console.log(error);
   })
 
   .finally(function(result){
