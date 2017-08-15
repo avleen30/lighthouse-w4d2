@@ -3,3 +3,4 @@ settings.json
 npm-debug.log
 dir_to_ignore/knex-demo
 dir_to_ignore/knex-notes
+knexfile.js
